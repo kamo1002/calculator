@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="developer">
+            <h1 >Calculator</h1>
+            <p><i>Developed by Kay_de_developer</i></p>
+        </div>
+        <input type="text" id="textBox" readonly >
+        <div id="btnContainer">
+            <button class="btns" onclick="appendInput('9')">9</button>
+            <button class="btns" onclick="appendInput('8')">8</button>
+            <button class="btns" onclick="appendInput('7')">7</button>
+            <button class="btns" id="divide" onclick="appendInput('/')">/</button>
+            <button class="btns" onclick="appendInput('4')">4</button>
+            <button class="btns" onclick="appendInput('5')">5</button>
+            <button class="btns"  onclick="appendInput('6')">6</button>
+            <button class="btns" id="multiply" onclick="appendInput('*')">*</button>
+            <button class="btns" onclick="appendInput('1')">1</button>
+            <button class="btns" onclick="appendInput('2')">2</button>
+            <button class="btns" onclick="appendInput('3')">3</button>
+            <button class="btns" id="add" onclick="appendInput('+')">+</button>
+            <button class="btns" onclick="appendInput('.')">.</button>
+            <button class="btns" onclick="appendInput('0')">0</button>
+            <button class="btns" id="clear">c</button>
+            <button class="btns" id="subtract" onclick="appendInput('-')">-</button>
+            <button class="btns" onclick="cancel()" id="cancel">x</button>
+            <button class="btns" onclick="calc()" id="equalSign">=</button>
+        </div>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+</html>
