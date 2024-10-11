@@ -1,0 +1,81 @@
+body{
+    background-image:url('calcBC.png');
+    
+}
+#developer{
+    position: relative;
+    display: block;
+    padding-left: 5%;
+    font-weight: bold;
+    background: rgb(17,101,108);
+background: linear-gradient(189deg, rgba(17,101,108,1) 49%, rgba(9,20,60,1) 49%);
+   background-clip: text;
+    color:transparent;
+}
+
+#container{
+   
+   width:250px;
+   padding: 1%;
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   height: 80vh;
+   backdrop-filter: blur(-10px);
+   border-radius: 15px;
+   box-shadow: 1px 1px 20px ;
+   
+
+
+}
+#btnContainer{
+    margin-top: 3%;
+   display: flexbox;
+   border: 1px solid hsla(236, 93%, 45%, 0.301);
+   width: 80%;
+ 
+   float: right;
+   margin-right: 8%;
+   border-radius: 5px;
+ 
+    
+}
+
+#textBox{
+    
+    width:85%;
+    font-size: 1.2em;
+    margin-left: 7%;
+    height: 5vh; 
+    border-radius: 10px;
+    
+}
+.btns{
+    padding:10px;
+    width:35px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    position: relative;
+}
+.btns:hover,#cancel:hover,#divide:hover,#multiply:hover,#add:hover,#subtract:hover,#equalSign:hover{
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+#equalSign{
+    width: 100px;
+    float: right;
+    background-color: black;
+    color: bisque;
+}
+#cancel{
+    background-color: rgba(231, 16, 16, 0.527);
+    width:80px;
+   
+}
+#divide,#multiply,#add,#subtract{
+    background-color: rgba(19, 119, 206, 0.479);
+}
+
